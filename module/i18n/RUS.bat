@@ -14,8 +14,9 @@ set PHRASE_0_2=Например: %2
 set PHRASE_1_0=  Visual Studio не установлена
 set PHRASE_1_1=Выберите версию Visual Studio для компиляции PvPGN:
 set PHRASE_1_2=%2 выбрана в качестве компилятора
-set PHRASE_1_3=Скачать/заменить последние исходники PvPGN из GIT (в папку %2)?
-set PHRASE_1_4=   PvPGN будет обновлен из GIT
+set PHRASE_1_3=Скачать/заменить последние исходники PvPGN из Git (в папку %2)?
+set PHRASE_1_3_1=Выберите ветку для загрузки исходников из GitHub:
+set PHRASE_1_4=   PvPGN будет обновлен из Git ветки %2
 set PHRASE_1_5=   PvPGN не будет обновлен
 set PHRASE_1_6=Выберите интерфейс для PvPGN: 
 set PHRASE_1_7=   1) Консольный (по-умолчанию)
@@ -62,3 +63,14 @@ set PHRASE_9_2=Установите пароль админа для Telnet соединения (работает на порту
 set PHRASE_9_3=Хеш пароля будет сохранен в файле %2
 set PHRASE_9_4=Вы хотите загрузить MPQ файлы, необходимые для работы сервера? (размер 1ГБ)
 set PHRASE_9_9=^^!^^!^^! Для завершения установки D2GS измените d2gs.reg и запустите install.bat ^^!^^!^^!
+
+:: the following two lines must have fixed length of 99 characters from first to last sharp symbol(#)
+::              #                                                                             #
+set PHRASE_10_0_0=#   Этот скрипт создает файлы проектов и pvpgn.sln, которые можно открывать   #
+set PHRASE_10_0_1=#   через Visual Studio и использовать для разработки и отладки PvPGN.        #
+
+set PHRASE_10_1=Ошибка: Сначала скомпилируйте PvPGN через build_pvpgn.bat
+set PHRASE_10_2=Файлы проектов будут созданы/заменены в папке %2. Подтвердите запуск.
+set PHRASE_10_3=Готово^^! Все проекты размещены в папке %2.
+set PHRASE_10_4= Ярлык %2 ссылается на %3
+set PHRASE_10_5= Рабочая папка для всех проектов %2
